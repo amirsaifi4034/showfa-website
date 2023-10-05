@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: 'League Spartan', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+header a.navbar-brand {
+    width: 160px;
+}
+
+.navbar-collapse.collapse.show {
+    position: fixed;
+    bottom: 0;
+    background: #eee;
+    left: 0;
+    width: 100%;
+}
+
+span.menuClose {
+    font-size: 45px;
+    cursor: pointer;
+}
+
+.openMenu.collapse:not(.show) {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    height: 100%;
+}
+
+.homeBanner {
+    padding: 80px 0;
+    background-image: url(../images/showfa-driver.png);
+    background-position: right top;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.customBtn {
+    background-image: url(../images/btnImage.png);
+    display: inline-block;
+    width: 185px;
+    padding: 15px 0 10px;
+    font-size: 20px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+}
+
+section.benifits {
+    padding: 30px 0;
+}
+
+.vehicleType {
+    background-image: url(../images/vehicle-type.png);
+    background-position: left center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 130px 0 100px;
+
+}
+
+.carImage {
+    width: 85%;
+    margin: auto;
+    height: 98px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carDetails {
+    margin-top: 10px;
+}
+
+.carDe1 {
+    margin-bottom: 80px;
+}
+
+.howWork {
+    background-image: url(../images/how-work.png);
+    background-position: right center;
+    padding: 80px 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+}
+
+.privacy-policy p {
+    font-size: 18px;
+    color: #636363;
+}
+
+.privacy-box {
+    background-color: aliceblue;
+    padding: 20px 15px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+}
+.privacy-box p {
+    color: #0781F1;
+}
+
+.centerLogo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media (min-width: 1800px) {
+    .vehicleType {
+        background-size: inherit;
+        padding: 80px 0;
+        margin-bottom: 35px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .homeBanner {
+        padding: 25px 0;
+    }
+    
+div#navbarNavAltMarkup .nav-link {
+    border-bottom: 1px solid #b4b4b4;
+    padding: 15px;
+    font-size: 21px;
+}
+
+    .homeBanner h4 {
+        font-size: 18px;
+    }
+
+    .leftBenefits h5,
+    .rightBenefits h5 {
+        font-size: 16px;
+    }
+
+    .mobileBtn {
+        background: url(../images/mobileBtn.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        padding: 30px 0px;
+        width: 90%;
+        margin: auto;
+    }
+
+    ul.downloadApp img {
+        width: 100%;
+    }
+
+    .qrCode {
+        width: 85px;
+    }
+
+    .footerHeading {
+        font-size: 18px;
+    }
+
+    ul.aboutList li {
+        font-size: 15px;
+    }
+
+    .howWork {
+        padding: 20px 0;
+        margin-bottom: 0px;
+        background: none;
+    }
+
+    .vehicleType {
+        height: auto;
+        padding: 28px 0 8px;
+        background-size: inherit;
+    }
+    section.vehicleType h5 {
+        font-size: 16px;
+    }
+
+    .leftBenefits {
+        text-align: justify;
+    }
+
+    section.benifits {
+        padding-bottom: 0;
+    }
+
+    section.vehicleType h5 {font-size: 14px;}
+
+    footer {text-align: center;}
+
+    .socialList {
+        justify-content: center !important;
+        margin-top: 20px;
+    }
+    .socialList li a img {
+        width: 18px;
+    }
+
+    .vehicleType h2 {
+        font-size: 18px;
+    }
+
+    .carDe1 {
+        margin-bottom: 35px;
+    }
+
+    h5 {
+        font-size: 16px;
+    }
+
+}
+
+@media (max-width: 575px) {
+    .homeBanner {
+        background-image: none;
+    }
+}

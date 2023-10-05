@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mail Conformation</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+        }
+
+        a {
+            color: #0781F1;
+        }
+
+        body {
+            font-family: 'League Spartan', sans-serif;
+        }
+
+        .main-section {
+            text-align: center;
+            background: #11BBB4;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .mailBody {
+            width: 650px;
+            margin: 30px auto 0;
+            background: #fff;
+            border-radius: 10px;
+            padding: 15px;
+        }
+
+        .mail-body-main {
+            width: 432px;
+            margin: auto;
+        }
+
+        .mail-body-main h1 {
+            font-weight: 400;
+            margin: 20px 0;
+        }
+
+        .copyright {
+            margin-top: 50px;
+            display: inline-block;
+        }
+
+        .footer {
+            padding: 32px 0 25px;
+            border-top: 1px solid #ddd;
+            margin: 25px auto 0;
+            width: 90%;
+        }
+
+        .socialList {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 12px;
+            margin-top: 25px;
+        }
+
+        @media (max-width: 768px) {
+            .mailBody {
+                width: 90%;
+                padding: 10px;
+            }
+
+            .mail-body-main {
+                width: 100%;
+            }
+
+            .footer {
+                padding: 20px 0 10px;
+                width: 100%;
+            }
+
+            .copyright {
+                margin-top: 30px;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <section class="main-section">
+        <div>
+            <img src="images/logo-white.png" alt="logo">
+            <div class="mailBody">
+                <div style="text-align: right;"><img src="images/cross.png" alt="close"></div>
+                <div class="mail-body-main">
+                    <img src="images/email-1.png" width="85px" height="85px" alt="Email">
+                    <h1>Email Confirmation</h1>
+                    <p>We have sent to <a href="mailto: " style="color: #11BBB4;">Jhonedoe@gmail.com</a> to confirm
+                        the validity of our email address. After receiving the
+                        email follow the link provided to complete you registration</p>
+                </div>
+                <a href="#" class="copyright">WWW.Showfa.Com</a>
+                <p class="footer">If you not hot any mail <a href="#"> Resend confirmation mail</a></p>
+            </div>
+
+            <ul class="socialList">
+                <li><a href="#" class="text-white"><img src="images/Linkdin.png" width="23px" alt=""></a></li>
+                <li><a href="#" class="text-white"><img src="images/Instagram.png" width="23px" alt=""></a></li>
+                <li><a href="#" class="text-white"><img src="images/Twitter.png" width="23px" alt=""></a></li>
+                <li><a href="#" class="text-white"><img src="images/Mail.png" width="23px" alt=""></a></li>
+                <li><a href="#" class="text-white"><img src="images/Facebook.png" width="23px" alt=""></a></li>
+            </ul>
+            <p style="color: #fff; margin-top: 25px;">© 2023 Showfa.com.All Right Reserved. </p>
+        </div>
+    </section>
+
+</body>
+
+</html>

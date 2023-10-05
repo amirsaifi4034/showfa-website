@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: 'League Spartan', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+header a.navbar-brand {
+    width: 160px;
+}
+
+.h-fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #fff;
+}
+
+.homeBanner {
+    padding: 50px 0 60px;
+    background-image: url(../images/showfa-driver.png);
+    background-position: right top;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+.navbar-collapse.collapse.show {
+    position: fixed;
+    bottom: 0;
+    background: #eee;
+    left: 0;
+    width: 100%;
+}
+
+span.menuClose {
+    font-size: 45px;
+    cursor: pointer;
+}
+
+.openMenu.collapse:not(.show) {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    height: 100%;
+}
+
+.customBtn {
+    background-image: url(../images/btnImage.png);
+    display: inline-block;
+    width: 185px;
+    padding: 15px 0 10px;
+    font-size: 20px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+}
+
+section.benifits {
+    padding: 30px 0;
+}
+
+.privacy-policy p {
+    font-size: 18px;
+    color: #636363;
+}
+
+.privacy-box {
+    background-color: aliceblue;
+    padding: 20px 15px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+}
+
+.privacy-box p {
+    color: #0781F1;
+}
+
+@media (max-width: 768px) {
+
+
+    div#navbarNavAltMarkup .nav-link {
+        border-bottom: 1px solid #b4b4b4;
+        padding: 15px;
+        font-size: 21px;
+    }
+
+
+    .homeBanner h4 {
+        font-size: 18px;
+    }
+
+    .homeBanner {
+        background-image: none;
+        padding: 25px 0 30px;
+        background: aliceblue;
+    }
+
+    .leftBenefits h5,
+    .rightBenefits h5 {
+        font-size: 16px;
+    }
+
+    .mobileBtn {
+        background: url(../images/mobileBtn.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        padding: 30px 0px;
+        width: 90%;
+        margin: auto;
+    }
+
+    ul.downloadApp img {
+        width: 100%;
+    }
+
+    .qrCode {
+        width: 85px;
+    }
+
+    .footerHeading {
+        font-size: 18px;
+    }
+
+    ul.aboutList li {
+        font-size: 15px;
+    }
+
+    .benifits h2 {
+        text-align: center;
+    }
+
+    h5 {
+        font-size: 16px;
+    }
+}
