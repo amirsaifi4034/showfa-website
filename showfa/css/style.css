@@ -9,13 +9,16 @@ body {
 
 a {text-decoration: none;}
 
+.container {
+    max-width: 90%;
+}
 header {
     position: relative;
     z-index: 1;
 }
 
 .bannerSection {
-    padding: 65px 0;
+    padding: 45px 0;
     /* background-image: url(../images/bannerGroup.png); */
     background-size: contain;
     background-repeat: no-repeat;
