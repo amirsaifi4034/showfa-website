@@ -87,8 +87,16 @@ section.benifits {
     color: #0781F1;
 }
 
+.leftBenefits h5 {
+    position: relative;
+}
+.leftBenefits {
+    padding-left: 18px;
+}
+
 @media (max-width: 768px) {
 
+    header .navbar-brand {width: 95px !important;}
 
     div#navbarNavAltMarkup .nav-link {
         border-bottom: 1px solid #b4b4b4;

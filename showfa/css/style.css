@@ -81,6 +81,7 @@ span.menuClose {
 
 @media (max-width: 768px) {
 
+    header .navbar-brand {width: 95px;}
     div#navbarNavAltMarkup .nav-link {
         padding: 8px;
         font-size: 18px;
